@@ -1,0 +1,27 @@
+body{
+    font-family: "Times New Roman", serif;/*fondi tüüp*/
+    color: darkslategray; /*teksti värv*/
+}
+h1{
+    border: dotted 1px skyblue; /*dashed, outline, double, soolid, ääris*/
+    padding: 5%; /*vahe tekstist ääriseni*/
+    margin: 5px;
+    border-radius: 40px;
+    width: 40%; /*laius*/
+    background-color: mediumvioletred; /*tausta värv*/
+}
+ul{
+    list-style-type: circle; /*markeri tüüp - square; */
+    padding: 5px;
+    background-color: lightcoral;
+}
+ul li{
+    background-color: pink;
+    margin: 5px;
+}
+table, td{
+    width: 40%;
+    border: solid 1px pink;
+    border-collapse: collapse; /*ühine ääris*/
+    background-color: rosybrown;
+}

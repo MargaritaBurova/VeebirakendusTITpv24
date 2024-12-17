@@ -1,0 +1,104 @@
+table#Lihtne, td{
+    /*html Failis id=lihtne*/
+    Width:60%;
+    border: 1px solid black;
+    text-align: center; /*teksti joomdamine keskele*/
+    padding: 10px; /*vahe telstist äärisemi*/
+    border-collapse: collapse;
+}
+
+/* tabeli psudoelimeentide kasutamine*/
+#lihtne tr:nth-child(1) td:nth-child(1){/*1.rida 1.lahter*/
+   background-color: yellowgreen;
+}
+table#Tab1, td{
+    /*html failis id=lihtne*/
+    width: 20%;
+    border: 1px darkviolet;
+    text-align: center;
+    padding: 5px;
+    /*border-collapse: collapse;*/
+}
+
+table#Tab2 td{
+    /*html failis id=lihtne*/
+    width: 20%;
+    border: 1px violet;
+    text-align: center;
+    padding: 3px;
+    background-color: lavender;
+    /*border-collapse: collapse;*/
+}
+
+table#Tab3, table#Tab3 td{
+    /*html failis id=lihtne*/
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 2px;
+    background-color: lavender;
+    /*border-collapse: collapse;*/
+}
+
+
+table#Tab4, table#Tab4 td{
+    /*html failis id=lihtne*/
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 2px;
+    background-color: lavender;
+    /*border-collapse: collapse;*/
+}
+
+table#Tab5, table#Tab5 td{
+    width: 50%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+    background-color: palevioletred;
+    /*border-collapse: collapse;*/
+}
+/* tabeli psudoelimeentide kasutamine*/
+#Tab5 tr:nth-child(1) td:nth-child(1){/*1.rida 1.lahter*/
+    background-color: yellowgreen;
+    width: 25%;
+}
+#Tab5 tr:nth-child(1) td:nth-child(2){
+        background-color: rebeccapurple;
+        width: 25%;
+}
+#Tab5 tr:nth-child(1) td:nth-child(3){
+    background-color: rosybrown;
+    width: 50%;
+}
+#Tab5 tr:nth-child(2) td:nth-child(1){
+    background-color: aqua;
+    width: 50%;
+}
+#Tab5 tr:nth-child(2) td:nth-child(2){
+    background-color: paleturquoise;
+    width: 50%;
+}
+#Tab5 tr:nth-child(2) td:nth-child(3){
+    background-color: darkcyan;
+    width: 50%;
+}
+#Tab5 tr:nth-child(3) td:nth-child(1){
+    background-color: cadetblue;
+    width: 50%;
+}
+#Tab5 tr:nth-child(3) td:nth-child(2){
+    background-color: olive;
+    width: 50%;
+}
+#Tab5 tr:nth-child(4) td:nth-child(1){
+    background-color:violet ;
+    width: 25%;
+}
+#Tab5 tr:nth-child(4) td:nth-child(2){
+    background-color: lightsteelblue;
+    width: 25%;
+}
+
+
