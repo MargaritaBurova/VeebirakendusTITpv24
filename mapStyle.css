@@ -1,0 +1,36 @@
+div{
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    left: 12cm;
+    top: 4cm;
+    padding: 2%;
+    border-radius: 95px;
+    font-family: "Copperplate Gothic Light";
+    color: midnightblue;
+    background-color: mistyrose;
+    border: solid 4pt palevioletred;
+}
+
+footer{
+    text-align: center;
+    background-color: paleturquoise;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+ }
+header{
+   text-align: center;
+    width: 100%;
+    font-family: "Copperplate Gothic Light";
+    font-variant: small-caps;
+    letter-spacing: 0.1cm;
+    background-color: rosybrown;
+}
+img{
+    border-radius: 5%;
+    border: solid 6pt palevioletred;
+    filter: blendTrans(50deg);
+}
